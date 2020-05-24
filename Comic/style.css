@@ -1,0 +1,210 @@
+body
+{
+	margin: 0;
+	background-color: #222;
+}
+
+#Page
+{
+	width: 1200px;
+	margin: 0 auto;
+	background-image:url("Images/MixedNutsRepeteable.png");
+}
+
+#Header
+{
+	height: 200px;
+	background-image: url("Images/Header.png");
+	position:relative;
+}
+
+#Heading
+{
+	padding: 10px 0 0 20px;
+}
+
+#HeadingTxt
+{
+	position:absolute;
+	display:inline-block;
+	text-align:center;
+	width: 154px;
+	bottom: -24px;
+	left: 86px;
+	color:white;
+	font-family:Arial, san-serif;
+}
+
+#Menu
+{
+	display: inline-block;
+	width: 850px;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+}
+
+#Menu a
+{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	display:inline-block;
+	width: 120px;
+	text-align:center;
+}
+
+#Menu a:hover
+{
+	color: #999;
+}
+
+#Advertisment
+{
+	position:absolute;
+	right: 50px;
+	top: 40px;
+}
+
+#Content
+{
+	min-height:1000px;
+}
+
+#ComicHolder
+{
+	width: 1100px;
+	height: 400px;
+	border-radius: 10px;
+	border: solid 2px;
+	padding: 5px;
+	margin: 20px auto 0 auto;
+	background-color:#EEE;
+	position:relative;
+}
+
+#ComicTitle
+{
+	position:absolute;
+	left: 10px;
+	bottom: -2px;
+	display:inline-block;
+}
+
+#ComicNav
+{
+	display:inline-block;
+	position:absolute;
+	right: 10px;
+}
+
+#First {
+  width: 44px;
+  height: 44px;
+  background: url("Images/first.png") 0 0;
+}
+#Prev {
+  width: 44px;
+  height: 44px;
+  background: url("Images/prev.png") 0 0;
+}
+#Rand {
+  width: 44px;
+  height: 44px;
+  background: url("Images/random.png") 0 0;
+}
+#Next {
+  width: 44px;
+  height: 44px;
+  background: url("Images/next.png") 0 0;
+}
+#Last {
+  width: 44px;
+  height: 44px;
+  background: url("Images/last.png") 0 0;
+}
+
+#Info
+{
+	width:1100px;
+	margin: 20px auto 0 auto;
+	position:relative;
+}
+
+#Info img
+{
+	float:left;
+}
+
+.ProfileID
+{
+	overflow:auto;
+}
+.imageFloat
+{
+	float:left;
+}
+.imageFloatRight
+{
+	float:right;
+}
+
+#SideBanner
+{
+	display: inline-block;
+	width: 150px;
+	min-height: 650px;
+	background-color: white;
+	border-radius: 10px;
+	border: solid 2px;
+}
+
+#SideBanner img
+{
+	padding: 12px;
+	float:left;
+}
+
+
+#Journal
+{
+	display: inline-block;
+	width: 730px;
+	min-height: 650px;
+	background-color: white;
+	border-radius: 10px;
+	border: solid 2px;
+}
+
+.JournalEntry
+{
+	display:inline-block;
+	width:700px;
+	margin: 0 10px;
+	float:left;
+	border-bottom: solid 2px;
+}
+
+#ExtraInfo
+{
+	display: inline-block;
+	width: 200px;
+	min-height: 650px;
+	background-color: white;
+	border-radius: 10px;
+	border: solid 2px;
+}
+
+#ExtraInfo p
+{
+	display:inline-block;
+	width:180px;
+	float:left;
+	text-align:center;
+}
+
+#Footer
+{
+	height: 180px;
+	background-image: url("Images/Footer.png");
+}
