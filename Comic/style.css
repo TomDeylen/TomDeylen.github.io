@@ -103,25 +103,41 @@ body
   height: 44px;
   background: url("Images/first.png") 0 0;
 }
+
+#First:hover {
+  background: url("Images/first.png") 88px 0;
+}
 #Prev {
   width: 44px;
   height: 44px;
   background: url("Images/prev.png") 0 0;
+}
+#Prev:hover {
+  background: url("Images/prev.png") 88px 0;
 }
 #Rand {
   width: 44px;
   height: 44px;
   background: url("Images/random.png") 0 0;
 }
+#Rand:hover {
+  background: url("Images/random.png") 88px 0;
+}
 #Next {
   width: 44px;
   height: 44px;
   background: url("Images/next.png") 0 0;
 }
+#Next:hover {
+  background: url("Images/next.png") 88px 0;
+}
 #Last {
   width: 44px;
   height: 44px;
   background: url("Images/last.png") 0 0;
+}
+#Last:hover {
+  background: url("Images/last.png") 88px 0;
 }
 
 #Info
