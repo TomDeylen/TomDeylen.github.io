@@ -24,19 +24,9 @@ nav {
 	position:relative;
 	width: 20%;
 	min-height: 90vh;
-	min-width: 200px;
 	top:10vh;
 }
 
-/* Style the images inside the grid */
-.column  img {
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-
-.column  img:hover {
-  opacity: 1;
-}
 
 
 main{
@@ -82,4 +72,18 @@ main{
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column  img:hover {
+  opacity: 1;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
