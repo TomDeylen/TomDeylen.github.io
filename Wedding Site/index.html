@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sample Page Title</title>
+		<link rel="stylesheet" 
+				href="Styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>Heading</h1>
+		</header>
+		<nav>
+			<div class="row">
+			  <div class="column">
+				<img src="Images\Preperation\81927-HH-0001.jpg" alt="Prep" onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0002.jpg" alt="Prep"  onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0003.jpg" alt="Prep"  onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0038.jpg" alt="Prep"  onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0039.jpg" alt="Prep"  onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0040.jpg" alt="Prep"  onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0041.jpg" alt="Prep"  onclick="myFunction(this);">
+			  </div>
+			  <div class="column">
+				<img src="Images\Preperation\81927-HH-0042.jpg" alt="Prep" onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0043.jpg" alt="Prep" onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0044.jpg" alt="Prep" onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0045.jpg" alt="Prep" onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0046.jpg" alt="Prep" onclick="myFunction(this);">
+				<img src="Images\Preperation\81927-HH-0047.jpg" alt="Prep" onclick="myFunction(this);">
+			  </div>
+			<div class="row">
+		</nav>
+		<main>
+			  <img id="expandedImg">
+			  <div id="imgtext"></div>
+		</main>
+
+		<script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
