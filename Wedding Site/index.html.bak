@@ -8,7 +8,7 @@
 	<body>
 		<header>
 			<img src="Images\Logo.png">
-			<h1>The Wedding of Crystal and Thomas Deylen - April 9th 2022</h1>
+			<h1>Heading</h1>
 			<img id="rightImage" src="Images\Rose.png">
 		</header>
 		<nav>
