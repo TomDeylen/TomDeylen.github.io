@@ -8,10 +8,15 @@
 	<body>
 		<header>
 			<img src="Images\Logo.png">
-			<div id="HeaderText">
-				<h1>The Wedding of Crystal and Thomas Deylen - April 9th 2022</h1>
+			<h1>The Wedding of Crystal and Thomas Deylen - April 9th 2022</h1>
+			<div id="Navigation">
+				<button class="button-72" role="button" href="#">Preperation</button>
+				<a href="#" class="button-72">First look</a>
+				<a href="#" class="button-72">Ceremony</a>
+				<a href="#" class="button-72">Speaches</a>
+				<a href="#" class="button-72">Dance</a>
+				<a href="#" class="button-72">Candid shots</a>
 			</div>
-			
 		</header>
 		<nav>
 			<div class="row">
