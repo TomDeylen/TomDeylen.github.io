@@ -15,7 +15,7 @@ header {
 	width: 100%;
 	top: 0px;
 	z-index: 1;
-	overflow: hidden;
+	
 }
 
 header img{
@@ -55,12 +55,8 @@ header h1{
   background-image: linear-gradient(#744d7b, #744d7b 50%);
 }
 
-@media (min-width: 768px) {
-  .button-72 {
-    font-size: 21px;
-    padding: 18px 34px;
-  }
-}
+
+
 
 
 #rightImage
@@ -135,13 +131,109 @@ main{
   opacity: 1;
 }
 
+.dropdown
+{
+	display: none;
+}
+
+#Navigation
+{
+	display: block;
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (orientation:portrait), (max-width: 700px) {
+@media screen and (orientation:portrait), (max-width: 1000px) {
+
+	
   .column {
     flex: 100%;
     max-width: 100%;
   }
 	header h1{
 	  font-size:1.5em;
+	  display:block;
   }
+  
+  .button-72 {
+    font-size: 21px;
+    padding: 18px 34px;
+  }
+
+
+	/* Dropdown Button */
+	.dropbtn {
+		background-color: initial;
+		background-image: linear-gradient(rgba(192, 154, 189, .84), rgba(116,77,123, .84) 50%);
+		border-radius: 42px;
+		border-width: 0;
+		 border-radius: 42px;
+		border-width: 0;
+		color: #FFFFFF;
+		font-size: 18px;
+	  font-weight: 700;
+	  justify-content: center;
+	  letter-spacing: .04em;
+	  line-height: 16px;
+	  margin: 0;
+	  padding: 10px 10px;
+	  text-align: center;
+	  text-decoration: none;
+	  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+	  vertical-align: baseline;
+	}
+
+	#Navigation
+	{
+	display: none;
+	}
+
+	/* The container <div> - needed to position the dropdown content */
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: initial;
+		background-image: linear-gradient(rgba(192, 154, 189, .84), rgba(116,77,123, .84) 50%);
+		border-radius: 12px;
+		border-width: 0;
+		 border-radius: 42px;
+		border-width: 0;
+		color: #FFFFFF;
+		font-size: 18px;
+		  font-weight: 700;
+		  justify-content: center;
+		  letter-spacing: .04em;
+		  line-height: 16px;
+		  margin: 0;
+		  padding: 10px 10px;
+		  text-align: center;
+		  text-decoration: none;
+		  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+		  vertical-align: baseline;
+		z-index: 15;
+	}
+
+	/* Links inside the dropdown */
+	.dropdown-content a {
+		color: white;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+
+	/* Change color of dropdown links on hover */
+	.dropdown-content a:hover {background-image: linear-gradient(#744d7b, #744d7b 50%);}
+
+	/* Show the dropdown menu on hover */
+	.dropdown:hover .dropdown-content {display: block;}
+
+	/* Change the background color of the dropdown button when the dropdown content is shown */
+	.dropdown:hover .dropbtn {background-image: linear-gradient(#744d7b, #744d7b 50%);}
+
+  
 }
