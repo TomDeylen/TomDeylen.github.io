@@ -11,7 +11,7 @@ header {
 	background-position: right bottom;
 	position:fixed;
 	height: 15vh;
-	min-height: 100px;
+	min-height: 120px;
 	width: 100%;
 	top: 0px;
 	z-index: 1;
