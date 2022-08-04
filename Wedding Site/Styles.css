@@ -112,7 +112,7 @@ main{
 	margin: 0 auto;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
   flex: 40%;
   max-width: 50%;
