@@ -21,7 +21,7 @@
 				<a href="Candidshots.html" >Candid shots</a>
 				<a href="Ceremony.html" >Ceremony</a>
 				<a href="GroupPhotos.html" >Group Photos</a>
-				<a href="Speaches.html" >Speaches</a>
+				<a href="Speaches.html" >Speeches</a>
 				<a href="DiningShots.html" >Dining Shots</a>
 				<a href="Dance.html" >Dance</a>
 			  </div>
@@ -30,6 +30,7 @@
 		<nav>
 			<div class="row">
 			  <div class="column">
+			  
 				<img src="Images\Group Photos\81927-HH-0974.jpg" alt="" onclick="myFunction(this);">
 				<img src="Images\Group Photos\81927-HH-0985.jpg" alt=""  onclick="myFunction(this);">
 				<img src="Images\Group Photos\81927-HH-0996.jpg" alt="" onclick="myFunction(this);">
