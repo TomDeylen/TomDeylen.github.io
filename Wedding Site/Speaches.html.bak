@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sample Page Title</title>
+		<link rel="stylesheet" 
+				href="Styles.css">
+	</head>
+	<body>
+		<header>
+			<img src="Images\Logo.png">
+			<h1>The Wedding of Crystal and Thomas Deylen - April 9th 2022</h1>
+			<h2>Speaches</h2>
+			<br>
+			<div class="dropdown">
+			  <button class="dropbtn">Photo lists</button>
+			  <div class="dropdown-content">
+				<a href="index.html">Preperation</a>
+				<a href="FirstLook.html" >First look</a>
+				<a href="BridalParty.html" >Bridal Party</a>
+				<a href="VenueShots.html" >Venue Shots</a>
+				<a href="Candidshots.html" >Candid shots</a>
+				<a href="Ceremony.html" >Ceremony</a>
+				<a href="GroupPhotos.html" >Group Photos</a>
+				<a href="Speaches.html" >Speaches</a>
+				<a href="DiningShots.html" >Dining Shots</a>
+				<a href="Dance.html" >Dance</a>
+				<a href="Candidshots.html">Candid shots</a>
+			  </div>
+			</div>
+		</header>
+		<nav>
+			<div class="row">
+			  <div class="column">
+				<img src="Images\Speaches\81927-HH-1097.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1101.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1105.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1120.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1124.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1128.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1139.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1144.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1149.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1154.jpg" alt="" onclick="myFunction(this);">
+			  
+			  </div>
+			  <div class="column">
+				<img src="Images\Speaches\81927-HH-1098.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1104.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1118.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1121.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1125.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1131.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1141.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1146.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Speaches\81927-HH-1151.jpg" alt="" onclick="myFunction(this);">
+			 </div>
+			<div class="row">
+		</nav>
+		<main>
+			  <img id="expandedImg">
+			  <div id="imgtext"></div>
+		</main>
+		<img id="rightImage" src="Images\Rose.png">
+		<script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sample Page Title</title>
+		<link rel="stylesheet" 
+				href="Styles.css">
+	</head>
+	<body>
+		<header>
+			<img src="Images\Logo.png">
+			<h1>The Wedding of Crystal and Thomas Deylen - April 9th 2022</h1>
+			<h2>Ceremony</h2>
+			<br>
+			<div class="dropdown">
+			  <button class="dropbtn">Photo lists</button>
+			  <div class="dropdown-content">
+				<a href="index.html">Preperation</a>
+				<a href="FirstLook.html" >First look</a>
+				<a href="BridalParty.html" >Bridal Party</a>
+				<a href="VenueShots.html" >Venue Shots</a>
+				<a href="Candidshots.html" >Candid shots</a>
+				<a href="Ceremony.html" >Ceremony</a>
+				<a href="GroupPhotos.html" >Group Photos</a>
+				<a href="Speaches.html" >Speaches</a>
+				<a href="DiningShots.html" >Dining Shots</a>
+				<a href="Dance.html" >Dance</a>
+				<a href="Candidshots.html">Candid shots</a>
+			  </div>
+			</div>
+			
+			
+		</header>
+		<nav>
+			<div class="row">
+			  <div class="column">
+				<img src="Images\Ceremony\81927-HH-0671.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0673.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0675.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0677.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0683.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0685.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0688.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0690.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0694.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0697.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0701.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0706.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0711.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0713.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0715.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0717.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0719.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0721.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0724.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0727.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0730.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0733.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0736.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0738.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0740.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0742.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0745.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0747.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0749.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0752.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0755.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0757.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0861.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0764.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0767.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0770.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0780.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0782.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0785.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0787.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0789.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0791.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0793.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0796.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0801.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0803.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0815.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0822.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0824.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0826.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0828.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0830.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0832.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0834.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0836.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0838.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0840.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0844.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0861.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0863.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0866.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0869.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0872.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0876.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0883.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0886.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0890.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0899.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0916.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0919.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0923.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0926.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0929.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0932.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0935.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0938.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0940.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0945.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0947.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0951.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0955.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0959.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0963.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0965.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0968.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0971.jpg" alt="" onclick="myFunction(this);">				
+			  </div>
+			  <div class="column">
+				<img src="Images\Ceremony\81927-HH-0672.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0674.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0676.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0678.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0684.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0687.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0689.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0691.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0696.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0699.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0705.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0709.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0712.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0714.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0716.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0718.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0720.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0722.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0725.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0728.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0731.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0734.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0737.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0739.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0741.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0743.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0746.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0748.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0750.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0753.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0756.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0759.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0862.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0766.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0769.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0772.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0781.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0784.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0786.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0788.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0790.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0792.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0795.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0797.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0802.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0814.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0816.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0823.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0825.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0827.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0829.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0831.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0833.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0835.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0837.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0839.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0843.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0846.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0862.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0865.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0868.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0871.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0874.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0878.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0884.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0888.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0894.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0901.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0918.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0921.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0925.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0928.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0931.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0934.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0936.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0939.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0943.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0946.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0949.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0953.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0958.jpg" alt=""  onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0961.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0964.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0966.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0969.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Ceremony\81927-HH-0973.jpg" alt="" onclick="myFunction(this);">
+			</div>
+			<div class="row">
+		</nav>
+		<main>
+			  <img id="expandedImg">
+			  <div id="imgtext"></div>
+		</main>
+		<img id="rightImage" src="Images\Rose.png">
+		<script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

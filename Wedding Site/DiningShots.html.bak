@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sample Page Title</title>
+		<link rel="stylesheet" 
+				href="Styles.css">
+	</head>
+	<body>
+		<header>
+			<img src="Images\Logo.png">
+			<h1>The Wedding of Crystal and Thomas Deylen - April 9th 2022</h1>
+			<h2>Ceremony</h2>
+			<br>
+			<div class="dropdown">
+			  <button class="dropbtn">Photo lists</button>
+			  <div class="dropdown-content">
+				<a href="index.html">Preperation</a>
+				<a href="FirstLook.html" >First look</a>
+				<a href="BridalParty.html" >Bridal Party</a>
+				<a href="VenueShots.html" >Venue Shots</a>
+				<a href="Candidshots.html" >Candid shots</a>
+				<a href="Ceremony.html" >Ceremony</a>
+				<a href="GroupPhotos.html" >Group Photos</a>
+				<a href="Speaches.html" >Speaches</a>
+				<a href="DiningShots.html" >Dining Shots</a>
+				<a href="Dance.html" >Dance</a>
+			  </div>
+			</div>
+		</header>
+		<nav>
+			<div class="row">
+			  <div class="column">
+				<img src="Images\Dining Shots\81927-HH-1108.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1111.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1113.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1115.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1133.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1155.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1157.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1159.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1161.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1165.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1170.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1176.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1181.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1188.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1195.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1197.jpg" alt="" onclick="myFunction(this);">
+			  </div>
+			  <div class="column">
+				<img src="Images\Dining Shots\81927-HH-1110.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1112.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1114.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1132.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1134.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1156.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1158.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1159.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1160.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1163.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1169.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1174.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1179.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1184.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1160.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1197.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Dining Shots\81927-HH-1197.jpg" alt="" onclick="myFunction(this);">
+				</div>
+			<div class="row">
+		</nav>
+		<main>
+			  <img id="expandedImg">
+			  <div id="imgtext"></div>
+		</main>
+		<img id="rightImage" src="Images\Rose.png">
+		<script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

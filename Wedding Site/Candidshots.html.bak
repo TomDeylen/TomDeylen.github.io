@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sample Page Title</title>
+		<link rel="stylesheet" 
+				href="Styles.css">
+	</head>
+	<body>
+		<header>
+			<img src="Images\Logo.png">
+			<h1>The Wedding of Crystal and Thomas Deylen - April 9th 2022</h1>
+			<h2>Candid Shots</h2>
+			<br>
+			<div class="dropdown">
+			  <button class="dropbtn">Photo lists</button>
+			  <div class="dropdown-content">
+				<a href="index.html">Preperation</a>
+				<a href="FirstLook.html" >First look</a>
+				<a href="BridalParty.html" >Bridal Party</a>
+				<a href="VenueShots.html" >Venue Shots</a>
+				<a href="Candidshots.html" >Candid shots</a>
+				<a href="Ceremony.html" >Ceremony</a>
+				<a href="GroupPhotos.html" >Group Photos</a>
+				<a href="Speaches.html" >Speaches</a>
+				<a href="DiningShots.html" >Dining Shots</a>
+				<a href="Dance.html" >Dance</a>
+				<a href="Candidshots.html">Candid shots</a>
+			  </div>
+			</div>
+		</header>
+		<nav>
+			<div class="row">
+			  <div class="column">
+				<img src="Images\Candid Shots\81927-HH-0615.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0617.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0621.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0625.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0660.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0662.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0664.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0667.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0669.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0679.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0681.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0775.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0777.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0779.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0794.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0799.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0804.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0806.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0808.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0810.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0812.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0817.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0821.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0848.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0851.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0853.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0855.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0857.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0859.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0956.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-1001.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-1005.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-1094.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-1096.jpg" alt="" onclick="myFunction(this);">
+			  </div>
+			  <div class="column">
+				<img src="Images\Candid Shots\81927-HH-0616.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0618.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0622.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0626.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0661.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0663.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0666.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0668.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0670.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0680.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0774.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0776.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0778.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0783.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0798.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0800.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0806.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0808.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0809.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0811.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0813.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0819.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0847.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0852.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0854.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0856.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0858.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0860.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0957.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-0999.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-1088.jpg" alt="" onclick="myFunction(this);">
+				<img src="Images\Candid Shots\81927-HH-1095.jpg" alt="" onclick="myFunction(this);">
+			  </div>
+			<div class="row">
+		</nav>
+		<main>
+			  <img id="expandedImg">
+			  <div id="imgtext"></div>
+		</main>
+		<img id="rightImage" src="Images\Rose.png">
+		<script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
