@@ -1,0 +1,230 @@
+body
+{
+	margin: 0;
+	background-color: #222;
+	background-image:url("Images/stars.jpg");
+}
+
+#Page
+{
+	width: 1200px;
+	margin: 0 auto;
+	background-image:url("Images/background.png");
+	background-size: 25%
+}
+
+#Header
+{
+	height: 200px;
+	background-image: url("Images/Header.png");
+	position:relative;
+}
+
+#Menu
+{
+	width: 850px;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+}
+
+#Menu a
+{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	display:inline-block;
+	width: 120px;
+	text-align:center;
+}
+
+#Menu a:hover
+{
+	color: #999;
+}
+
+#Advertisment
+{
+	position:absolute;
+	right: 50px;
+	top: 40px;
+}
+
+#Content
+{
+	min-height:100%;
+}
+
+#ComicHolder
+{
+	width: 98%;
+	min-height: 400px;
+	border-radius: 10px;
+	border: solid 2px;
+	padding: 5px;
+	margin: 20px auto 0 auto;
+	background-color:#EEE;
+	overflow:auto;
+	position:relative;
+}
+
+#Comics{
+	display: flex;
+	justify-content: center;
+}
+
+#Comics img{
+	display: block;
+	width:100%;
+}
+
+#ComicInfo{
+	position:relative;
+	min-height: 50px;
+}
+
+#ComicTitle
+{
+	position:absolute;
+	display:inline-block;
+	left: 20px;
+	top: 5px;
+	margin:10px 0;
+}
+
+#ComicNav
+{
+	position:absolute;
+	display:inline-block;
+	right: 20px;
+}
+
+.First {
+  width: 44px;
+  height: 44px;
+  background: url("Images/first.png") 0 0;
+}
+
+.First:hover {
+  background: url("Images/first.png") 88px 0;
+}
+.Prev {
+  width: 44px;
+  height: 44px;
+  background: url("Images/prev.png") 0 0;
+}
+.Prev:hover {
+  background: url("Images/prev.png") 88px 0;
+}
+.Rand {
+  width: 44px;
+  height: 44px;
+  background: url("Images/random.png") 0 0;
+}
+.Rand:hover {
+  background: url("Images/random.png") 88px 0;
+}
+.Next {
+  width: 44px;
+  height: 44px;
+  background: url("Images/next.png") 0 0;
+}
+.Next:hover {
+  background: url("Images/next.png") 88px 0;
+}
+.Last {
+  width: 44px;
+  height: 44px;
+  background: url("Images/last.png") 0 0;
+}
+.Last:hover {
+  background: url("Images/last.png") 88px 0;
+}
+
+#Info
+{
+	width:1100px;
+	margin: 20px auto 0 auto;
+	position:relative;
+	display: flex;
+	justify-content: center;
+}
+
+#Info img
+{
+	float:left;
+}
+
+.ProfileID
+{
+	overflow:auto;
+}
+.imageFloat
+{
+	float:left;
+}
+.imageFloatRight
+{
+	float:right;
+}
+
+#SideBanner
+{
+	display: inline-block;
+	width: 150px;
+	min-height: 650px;
+	background-color: white;
+	border-radius: 10px;
+	border: solid 2px;
+}
+
+#SideBanner img
+{
+	padding: 12px;
+	float:left;
+}
+
+
+#Journal
+{
+	display: inline-block;
+	width: 75%;
+	min-height: 650px;
+	background-color: white;
+	border-radius: 10px;
+	border: solid 2px;
+}
+
+.JournalEntry
+{
+	display:inline-block;
+	width:700px;
+	margin: 0 10px;
+	float:left;
+	border-bottom: solid 2px;
+}
+
+#ExtraInfo
+{
+	display: inline-block;
+	width: 20%;
+	min-height: 650px;
+	background-color: white;
+	border-radius: 10px;
+	border: solid 2px;
+	margin-left: 10px;
+}
+
+#ExtraInfo p
+{
+	display:inline-block;
+	width:180px;
+	float:left;
+	text-align:center;
+}
+
+#Footer
+{
+	height: 180px;
+	background-image: url("Images/Footer.png");
+}
